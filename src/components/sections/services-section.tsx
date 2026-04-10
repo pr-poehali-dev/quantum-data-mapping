@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Арсенал
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Выбери оружие победы</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Штурмовые винтовки",
+              description: "Универсальное оружие для ближнего и среднего боя. Высокая точность и скорострельность",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Снайперские винтовки",
+              description: "Поражай врагов с дальней дистанции. Один выстрел — одно убийство",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Пистолеты-пулемёты",
+              description: "Молниеносная реакция в ближнем бою. Идеально для быстрых атак и зачистки помещений",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Дробовики",
+              description: "Максимальный урон в упор. Незаменимы при штурме укреплённых позиций",
               direction: "bottom",
             },
           ].map((service, i) => (
